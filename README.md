@@ -22,9 +22,9 @@ React + TypeScript + Vite frontend; FastAPI + SQLAlchemy + SQLite backend. The a
 
 1. `cd backend; py -3 -m pip install -r requirements.txt`
 2. `py -3 -m app.db.seed`
-3. `py -3 -m uvicorn app.main:app --reload`
+3. `py -3 -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8010`
 4. In another terminal: `cd frontend; npm install; npm run dev`
-5. Open `http://localhost:5173`.
+5. Copy `frontend/.env.example` to `frontend/.env`, then open `http://localhost:5173`.
 
 Run backend checks with `cd backend; py -3 -m pytest -q` and build the UI with `cd frontend; npm run build`.
 
