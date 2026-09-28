@@ -1,12 +1,43 @@
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
 .pytest_cache/
 pytest-cache-files-*/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Environment files — NEVER commit real credentials
 .env
+*.env.local
+*.env.production
+
+# Databases
 backend/*.db
+*.db-shm
+*.db-wal
+
+# Frontend
 frontend/node_modules/
 frontend/dist/
+frontend/.vite/
 .vite/
 *.tsbuildinfo
 frontend/vite.config.js
 frontend/vite.config.d.ts
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
