@@ -134,3 +134,4 @@ The memory influence is visually explicit in the UI — the Hindsight Memory sec
 ## Contact / Repository
 
 > [See README for full setup, API reference, and architecture details]
+

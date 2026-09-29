@@ -146,3 +146,4 @@ In mock mode, both operations use SQLite with keyword-ranked search. The agent c
 | Demo reliability | 100% reliable, no network | Requires connectivity |
 
 The demo uses mock mode for reliability. Cloud mode demonstrates real Hindsight integration.
+

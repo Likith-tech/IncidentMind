@@ -136,3 +136,4 @@ The reset restores the exact seed data — 20 resolved incidents and 10 memories
 
 **Q: Is the memory permanent?**
 > In mock mode, it persists between restarts but can be reset via the Demo Reset button. In cloud mode, it's permanently stored in the Hindsight memory bank.
+
